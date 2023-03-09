@@ -1,0 +1,20 @@
+body {
+    margin: 0px 0px 0px 0px
+}
+
+.biome {
+    display: grid;
+    grid-template-columns: repeat(128, 1fr);
+    border: 1px solid red;
+    width: 100vh;
+    margin: 0px 0px 0px 0px
+}
+
+.sector {
+    width: 1.2rem;
+    height: 1.2rem;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
